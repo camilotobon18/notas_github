@@ -1,0 +1,29 @@
+README Se deja sin chulo
+Protocolos para comunicarnos con el servidor 
+https
+SSH //este es mas seguro
+
+los proyectos pueden tener muchos remotes
+la comunicacion es bidireccional y se divide en
+
+push
+
+se crea un archivo de texto, se denomina .gitignore, se debe habilitar las extensiones 
+build/      carpeta
+build.xml   archivo
+
+
+git status
+
+git add -A  //agrega todos los archivos, los deja en modo preparación
+git commit  //guarda el archivo, sigue estando local
+
+git remote add origin https://github.com/camilotobon18/NTP012020AlgoritmosP1.git   //conectar el repositorio local con el repositorio en github
+
+git push -u origin master //pide conexion, usuario y contraseña
+
+git commit -m "segunda entrega"
+git push
+git pull  //halar, los datos desde el servidor
+
+git clone y la url
