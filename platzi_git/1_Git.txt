@@ -1,0 +1,20 @@
+$ git init
+$ git add biografia.txt
+$ git commit -m "version 1"
+
+$ git add . //todos los archivos de la carpeta en la q estoy ubicado
+$ git commit -m "Cambios a la V1"
+$ git status
+$ git show
+$ git log biografia.txt //historia entera de un archivo
+$ git push //enviar a un repositorio remoto
+
+verificar q se instale git bash here
+se emula la consola de linux en windows - git bash
+
+apt-get //forma de mirar como instalar paquetes en linux
+$ sudo //para dar permisos de administrador
+$ sudo apt-get install git
+
+Git, sirve sobre archivos de texto plano
+

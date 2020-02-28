@@ -1,0 +1,6 @@
+git clone URL
+
+cuando se tiene una actualizacion en el repositorio remoto
+git fetch = lo trae al repositorio local, pero no lo copia en mis archivos
+git merge = lo lleva del repositorio local al directorio de trabajo
+git pull = engloba ambas

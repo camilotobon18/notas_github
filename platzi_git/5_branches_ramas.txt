@@ -1,0 +1,19 @@
+ramas, son formas en las que se pueden hacer cambios sin afectar la rama principal
+
+git commit -am = sirve para mandar los cambios en archivos q no son nuevos.
+
+shift esc zz = no a la misma vez
+q = para salir de log y show
+
+git branch nombre_rama = crear una rama, con show muestra las ramas existentes
+
+git checkout nombre_rama = podemos cambiar de rama
+al cambiar entre ramas en el editor se muestra la rama en que estamos parados. se para en el ultimo commit de la rama q especificamos
+
+Las ramas son la forma de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar.
+
+La cabecera o HEAD representan la rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal. Pero podemos cambiarlo al crear una rama (git branch rama, git checkout -b rama) o movernos en el tiempo a cualquier otro commit de cualquier otra rama con los comandos (git reset id-commit, git checkout rama-o-id-commit).
+
+git merge cabecera, estando en la rama master. es un commit a la rama master
+
+git branch

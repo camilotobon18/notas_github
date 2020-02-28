@@ -1,0 +1,29 @@
+tres tipos de repositorios
+
+-publico
+-protegidos, abiertos para todo el mundo, pero se debe loguear antes de descargarse. en tendencia a desaparecer
+-privado, los miembros que el moderador especifico
+
+se puede dar permisos a grupos
+cada uno tiene sus propios roles
+
+ramas protegidas, para que no cualquiera haga cambios en la rama principal
+
+ENTRADA
+	respuestas correctas, incorrectas, en blanco por postulante
+	puntaje c=4, i=-1, b=0
+
+PROCESO
+	
+
+RESPUESTA
+
+
+//hacer un pull del proyecto del profesor
+crear una carpeta
+hacer un ejercicio
+montar un commit por cada ejercicio
+antes de hacer el commit hacer el pull
+
+:wq salir de la pantalla q abre git
+

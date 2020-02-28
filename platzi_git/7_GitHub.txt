@@ -1,0 +1,22 @@
+se puede inicializar el repositorio con README
+ 
+Hay diferentes licencias por las cuales se puede publicar el codigo
+
+git remote add URL 
+
+git puth origin master
+
+git remote -v = nos muestra las opciones q podemos hacer push o fetch(traer)
+
+cuando creamos el repositorio con el README y vamos a realizar el primer push nos sale el mensaje que ya hay algo en git, q inicialmente se debe hacer un fetch
+
+git pull orgin master
+
+git pull origin master --allow-unrelated-histories = permite hacer un merge entre la rama q se tenia en github y git
+despues de realizar la instruccion anterior se puede hacer el push
+
+se puede realizar commit dentro de github, sin tener que descargarlo
+
+se debe hacer el pull para descargarlo local
+
+

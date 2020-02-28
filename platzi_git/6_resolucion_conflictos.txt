@@ -1,0 +1,9 @@
+VS code muestra donde esta el conflicto y ofrece la opcion de cual de las dos lineas de codigo se desea conservar
+como muestra los conflictos
+<<<<<<< HEAD
+	color: blue;
+=========
+	color: red;
+>>>>>>>
+
+se selecciona cual de los dos voy a conservar y se puede hacer el commit

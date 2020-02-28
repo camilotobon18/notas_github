@@ -1,0 +1,33 @@
+- utiliza las letras
+-- utiliza una palabra
+
+git init
+se crea un espacio en memoria ram, denominado staging, y el repositorio /.git/
+cuando se hacen cambios se agregan al staging area, mediante git add nombrearchivo.txt
+queda en estado preparado para enviarlo
+commit -m  //por defecto es master
+untracked, cuando los cambios aun no se han agregado a git
+tracked, estado en el que los cambios ya estan en git
+tracked repositorio, cuando ya se encuentran en github
+
+master, es la rama principal
+ramas, romper en pedasitos en diferentes lineas de tiempo el codigo
+checkout, crear una rama
+
+BRANCH (rama)
+se puede crear una rama para hacer experimentos, sin afectar la rama principal
+merge, cuando se unen los cambios de una rama con otra
+hotfix, cambio en caliente
+
+code = cmd para abrir VSCode
+git status
+cached = esta en memoria ram
+git rm --cached archivo.txt = elimina el archivo de la memoria ram, lo podemos volver a cargar, para luego hacerle el commit
+git commit -m mensaje, comentario
+git config --list = configuracion por defecto de git
+git config --list --show-origin = muestra donde estan las configuraciones guardadas
+git config --global user.name "Camilo Tobon"
+git config --global user.email "camilotobon21@gmail.com"
+cat = contenido del archivo
+git add .  = de esta forma se pueden anexar todos los archivos de la carpeta actual
+git log historia.txt = historia del archivo

@@ -1,0 +1,14 @@
+entramos al proyecto del otro desarrollador
+en la opcion fork, lo traemos hacia nuestro repositorio remote
+luego lo clonamos al repositorio local
+git clone URL
+creamos una rama y en esta hacemos la modificacion
+git branch nombre_rama
+hacemos los cambios en esta rama
+git add.
+git commit
+git remote add
+git push origin camilo
+
+luego en git vamos a pull request
+realizamos la solicitud al repositorio de la otra persona

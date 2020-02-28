@@ -1,0 +1,31 @@
+Tags y versiones en Git y GitHub
+
+Muestra mas graficamente los cambios
+git log --all
+git log --all --graph		
+git log --all --graph --decorate --oneline
+
+ALIAS
+alias nombre_alias="git log --all --graph --decorate --oneline"
+
+CREAR TAG
+copiar hash del commit(denominación corta)
+git tag -a v0.1 -m "Resultado de las primeras clases del curso" codigo_hash
+v=identificador q se define de la version
+
+muestra la lista de los tags
+git tag
+muestra los tags con el codigo hash largo
+git show-ref --tags
+muestra la referencia al momento en el que se creo el TAG
+history
+enviar los tags al master, primero el pull
+git push origin --tags
+
+en github, en branch se puede visualizar los tags
+
+BORRAR TAG
+de esta forma no se borra en github
+git tag -d nombre_tag
+eliminar el tag del repositorio remoto
+git push origin :refs/tags/nombre_tag

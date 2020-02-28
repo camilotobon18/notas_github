@@ -1,0 +1,23 @@
+git show historia.txt = muestra los cambios realizados
+esc + shift + zz para guardar y salir de vim
+esc + i ingresar texto en vim
+git diff primerCodigoCommit segundoCodigoCommit= para mirar la diferencia entre dos commit, recomendable colocar la version mas vieja de primera
+git reset codigo_commit --hard = vuelve al estado anterior, todo
+git reset codigo_commit --soft = vuelve al estado anterior, pero lo q estaba en stagin, en el directorio vuelve a la version anterior
+
+git diff = sin parametros, muestra la diferencia entre staging y el disco duro
+
+git log --stat = cambios especificos, cuales archivos a partir del commit
+
+git checkout codigo_commit historia.txt = muestra el archivo antes de ese commit
+
+git reset HEAD = sirve para sacar los archivo del area de staging. para q no se envien en el ultimo commit.
+
+git rm = eliminar archivo de Git sin eliminar su historial del sistema de versiones.
+
+git rm --cached = elimina los archivos del area de staging y del proximo commit pero los mantiene en nuestro disco duro.
+
+git rm --force = elimina los archivos de git y del disco duro. se puede recuperar pero con comandos mas avanzados.
+
+git init
+git add . //agregar toda la carpeta

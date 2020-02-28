@@ -1,0 +1,57 @@
+cifrado asimetrico de un solo camino
+
+lo q cifre con la llave publica solo se descifra con la llave privada
+estan vinculadas matematicamente
+
+HTTPS, vulnerable si se roban el equipo
+
+LLAVE PRIVADA
+en la computadora se crea una llave privada y una llave publica.
+se envia a GitHub la llave publica
+se realiza la conexion SSH
+GitHub envia la llave publica de GitHub.
+a la llave privada se le puede agregar contraseña
+
+las llaves no se crean para un repositorio sino para un usuario, entonces se crean en el home
+
+se debe cambiar la configuracion local de GIT
+actualizar el correo con el mismo q tenemos en GIT
+
+Debemos estar en el home, cd
+ssh-keygen -t rsa -b 4096 -C "camilotobon21@gmail.com"
+
+rsa= Algoritmo que vamos a utilizar
+4096= complejidad matematica que vamos a utilizar
+
+nos muestra donde la va a guardar, enter si estamos de acuerdo o elegir carpeta donde vamos a guardar
+
+pide passphrase, seria la contraseña adicional. es opcional
+
+se puede visualizar en la carpeta privda .ssh
+
+la llave se agrega al entorno, q el entorno sepa que existe, la siguiente respuesta indica q esta corriendo: agent pid #####
+eval $(ssh-agent -s)
+
+vamos al directorio y agregamos la llave privada
+ssh-add ~/.ssh/id_rsa
+
+para ir al directorio del ssh, ~ indicar el home
+cd ~/.ssh/
+
+cada computadora tiene su llave privada
+
+copiamos la llave publica
+vamos a GitHub
+settings
+SSH and GPG key
+se pega la llave publica
+crear
+
+luego cambiamos el origen del repositorio (URL)
+clonar, copiamos la URL SSH
+git remote set-url origin URL_SSH
+git pull, se debe confirmar
+git pull origin master
+
+para evitar conflictos(q otro usuario haya realizado cambios) se hace el pull inmediatamente antes del commit y por ultimo el push
+
