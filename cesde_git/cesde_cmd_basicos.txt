@@ -27,3 +27,7 @@ git push
 git pull  //halar, los datos desde el servidor
 
 git clone y la url
+
+restablecer credenciales en git
+cmdkey /delete:LegacyGeneric:target=git:https://github.com
+
