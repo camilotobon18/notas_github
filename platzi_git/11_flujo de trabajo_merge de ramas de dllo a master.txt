@@ -1,0 +1,10 @@
+los archivos binarios, por ejemplo imagenes no se deberian anexar al repositorio remoto
+github a veces no actualiza el cache, por eso cuando se cambia o edita la imagen, no se actualiza en el github
+ctrl + F5 = forzar actualizacion
+
+PARA FUSIONAR (merge)
+vamos al master
+git checkout master
+git merge header 
+git pull origin master
+git push origin master
