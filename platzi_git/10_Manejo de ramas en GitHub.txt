@@ -1,0 +1,18 @@
+ git show-branch
+ git show-branch --all = muestra  = detalle de las ramas que se crearon
+ gitk = muestra graficamente la historia 
+ se realiza el pull a master, luego se hace el checkout a cabecera y posteriormente el push de cabecera al remoto. crea una nueva rama en el remot
+ se pueden tener ramas que nunca se envian al remoto
+ volvemos al master, desde alli creamos las nuevas ramas
+ git branch header
+ luego a cada rama se le hace el push
+ 
+ git clone URL
+ al realizar el git push origin master, va a mostrar permisos denegados
+ 
+ en el papel de creador de proyecto, se puede agregar un nuevo colaborador
+ en setting
+ luego collaborators
+ el email, debe estar configurado como publico
+ se puede agregar el nombre de usuario, para no volver el correo publico
+ 
