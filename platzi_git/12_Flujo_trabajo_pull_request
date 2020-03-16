@@ -1,0 +1,13 @@
+En entorno profesional normalmente se bloquea la rama master para los colaboradores
+-Pull request: estado intermedio antes de enviar el merge. se utiliza para que el administrador revise el codigo antes del merge
+normalmente se lleva una rama paralela denominada staging develop (aplicacion en desarrollo) alli  se realizan los pull request, debe estar actualizada
+-pull request es una caracteristica de github
+-DevOps, es la persona que realiza este trabajo
+
+new pull request
+se escoge la rama master y la rama con la q se desea comparar
+Reviewers: se puede seleccionar personas para que revisen
+a la persona que le llega el pull request le sale un resumen
+Request changes, se puede solicitar al que hizo el pull request, q realice cambios adicionales
+Approve, no significa hacer el merge, sino una aprobacion de los cambios
+el merge se debe hacer despues, lo puede realizar cualquiera de los colaboradores
