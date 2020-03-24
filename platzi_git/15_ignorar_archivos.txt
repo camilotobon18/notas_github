@@ -1,0 +1,11 @@
+git ignore
+los archivos binarios del contenido
+archivos de conexion a la BD
+
+asi se debe llamar el archivo
+.gitignore
+de esta forma ignora el 100% de x tipo de archivos
+*.jpg
+anteponiendo este simbolo, se indica NO ignorar
+!
+las imagenes se agregan a un sitio externo y se referencian
