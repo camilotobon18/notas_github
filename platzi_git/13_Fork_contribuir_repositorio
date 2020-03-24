@@ -1,4 +1,23 @@
+setting, collaborator, X: para sacar a un colaborador
 Wathc, para q llegue notificaciones de las conversaciones referentes a ese proyecto
 * star, notificaciones de los cambios en ese proyecto
 Fork, clonar el proyecto al repositorio remoto
 split, dividir en dos columnas la visualizacion del codigo (antes y despues)
+
+git clone URL
+se realizan los cambios
+se le realiza el push al repositorio que esta en mi usuario
+se crea el pull request apuntando al proyecto original
+
+el dueño del repositorio puede aprobar el pull request y hacer el merge
+
+git pull origin master, antes del commit
+
+FUENTE PARA TRAER LOS CAMBIOS
+vamos al proyecto original, copiamos el link del repositorio
+git remote add upstream URL_proyecto_original
+git pull upstream master
+de esta forma se traen los cambios del repositorio original al repositorio que le hicimos el fork
+
+
+-am = "a" para agregar los cambios, "m" para mensaje
