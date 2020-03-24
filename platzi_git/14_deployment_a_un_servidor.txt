@@ -1,0 +1,9 @@
+Enviar a produccion
+se ingresa al servidor de la aplicación
+ej
+cd /var/www/pagina.com/html
+git clone URL
+para actualizar se hace el, estando parados en el servidor
+pull origin master 
+
+
