@@ -1,0 +1,4 @@
+//sirve para traer al master un commit especifico, no necesariamente el ultimo
+git log --oneline
+//estando parados en la rama master
+git cherry-pick codigo_del_commit
