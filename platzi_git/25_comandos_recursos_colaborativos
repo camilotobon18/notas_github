@@ -1,0 +1,13 @@
+git shortlog -sn --all --no-merges
+//la forma de crear un alias a un comando
+git config --global alias.stats "shortlog -sn --all --no-merges"
+//para mirar quien modifico el archivo
+git blame archivo 
+git blame -c archivo
+//para mirar unas lineas en especifico
+git blame archivo -L35,53
+git help 
+//las ramas remotas
+git branch -r
+//muestra todas las ramas
+git branch -a
