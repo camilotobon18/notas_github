@@ -1,0 +1,7 @@
+El comando rebase es una mala practica, nunca se debe usar. con rebase puedes recoger todos los cambios confirmados en una rama y ponerlos sobre otra.
+//cambiamos a la rama q queremos traer los cambios
+git checkout experiment
+//aplicamos rebase para traer los cambios de la rama q queremos
+git rebase master
+
+se elimina la historia de la rama experiment
