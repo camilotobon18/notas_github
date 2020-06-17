@@ -1,0 +1,6 @@
+Limpiar el proyecto de archivos no deseados
+a git no le importa la carpeta, sino los archivos, asi la carpeta diga copia, git no la borrara, se debe hacer manualmente
+//este comando muestra lo q se va a borrar, git muestra las copias de archivos
+git clean --dry-run
+//limpia
+git clean -f
