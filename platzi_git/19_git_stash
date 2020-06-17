@@ -1,0 +1,11 @@
+//sale toda la historia
+gitk
+stash, sirve para guardar en memoria los cambios, no de forma definitiva. para tenerlos presente para guardarlos o enviarlos a otra rama
+//stash, vuelve al estado anterior, al commit anterior
+git stash
+//lista los stash
+git stash list
+//llevar ese stash a una rama
+git stash branch nombre-rama
+//borrarlo
+git stash drop
