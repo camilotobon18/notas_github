@@ -1,0 +1,7 @@
+//muestra todo
+git reflog
+//buscamos la ultima version correcta a la q queramos volver 
+git reset HEAD@{4}
+--SOFT, lo q esta en el staging
+--HARD, resetea todo
+git reset --HARD codigo_commit
