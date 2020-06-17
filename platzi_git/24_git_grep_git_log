@@ -1,0 +1,8 @@
+//grep para buscar palabras en los archivos
+//muestra en q archivo y donde esta la palabra a buscar
+git grep -n palabra_a_buscar
+//cuenta el numero de palabras 
+git grep -c palabra_a_buscar
+
+//log para buscar en los commits
+git log -S palabra_a_buscar
