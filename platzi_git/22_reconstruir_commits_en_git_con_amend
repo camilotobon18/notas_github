@@ -1,0 +1,6 @@
+//si se nos olvido realizar algun cambio y ya realizamos el commit
+//realizamos el cambio, luego hacemos el add
+add css/estilos.css
+//luego realizamos el
+git commit amend
+//podemos modificar el texto del commit
